@@ -1,0 +1,73 @@
+body{
+    font-family: Oswald;
+    text-align: center;
+    margin: 0%;
+}
+
+#background1{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+        background-size:cover;
+        background-position: center;
+        overflow-x: hidden;
+        background-size: contain;
+        scale: 100%;
+        background-repeat: repeat;
+}
+
+header{
+    text-align: left;
+    min-width: 100%;
+    background-color: black;
+    padding: 15px;
+}
+
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1{
+    font-size: 450%;
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    transition-duration: 350ms;
+    transition-delay: 100ms;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+a:hover{
+    transition-duration: 350ms;
+    background-color: dimgray;
+    transition-delay: 100ms;
+    border-radius: 5px;
+}
+
+#about{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 50px;
+    transition-duration: 1s;
+}
+
+#about:hover{
+    scale: 101%;
+    transition-duration: 1s;
+    background-color: rgb(218, 232, 243);
+}
+
